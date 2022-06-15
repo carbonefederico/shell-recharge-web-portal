@@ -4,7 +4,7 @@ let config = {
     azEndpoint: "/authorize",
     logoutEndpoint: "/signoff",
     clientId: "ecfd9455-2c46-4582-b23b-d6f60c2ec178",
-    redirectUri: "http://localhost:5501"
+    redirectUri: "https://shell-recharge-web-portal.glitch.me"
 }
 
 const oidcClient = createClient (config); 
